@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Button from "./button";
 import Container from "./container";
+import NavDropdown from "./nav-dropdown";
 
 export default function Navbar() {
   return (
@@ -11,16 +12,20 @@ export default function Navbar() {
             {/* Left: Nav links */}
             <ul className="flex items-center gap-8">
               <li>
-                <Link
-                  href="/about"
-                  className="font-sans text-xs tracking-wide uppercase font-medium text-ink/80 hover:text-ink transition-colors"
-                >
-                  About
-                </Link>
+                <NavDropdown
+                  label="About"
+                  href="/about-us"
+                  items={[
+                    { label: "Our Values", href: "/about-us#values" },
+                    { label: "Our Office", href: "/about-us#office" },
+                    { label: "Our Team", href: "/about-us#team" },
+                    { label: "Reviews", href: "/about-us#reviews" },
+                  ]}
+                />
               </li>
               <li>
                 <Link
-                  href="/services"
+                  href="#"
                   className="font-sans text-xs tracking-wide uppercase font-medium text-ink/80 hover:text-ink transition-colors"
                 >
                   Services
@@ -28,7 +33,7 @@ export default function Navbar() {
               </li>
               <li>
                 <Link
-                  href="/resources"
+                  href="#"
                   className="font-sans text-xs tracking-wide uppercase font-medium text-ink/80 hover:text-ink transition-colors"
                 >
                   Resources
@@ -61,7 +66,7 @@ export default function Navbar() {
               <Button href="tel:+13055550100" theme="outline" size="sm">
                 (305) 555-0100
               </Button>
-              <Button href="/book" theme="primary" size="sm">
+              <Button href="#" theme="primary" size="sm">
                 Book Now
               </Button>
             </div>

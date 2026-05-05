@@ -47,7 +47,7 @@
       Fluid root: escala de 14px (320vw) → 16px (768vw) → 18px (1440vw).
       Como tudo usa em, spacing / type / padding escalam junto.
     */
-    font-size: clamp(0.875rem, 0.7rem + 0.56vw, 1.125rem);
+    font-size: clamp(10px, 1.1111vw, 22px);
   }
 
   body {

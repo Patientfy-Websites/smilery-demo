@@ -73,12 +73,10 @@ export default function Footer() {
         {/* Columns */}
         <div className="grid grid-cols-4 gap-4 pt-14 pb-16">
           <FooterColumn title="About Us">
-            <FooterLink href="#">Mission</FooterLink>
-            <FooterLink href="#">Team</FooterLink>
-            <FooterLink href="#">Our Values</FooterLink>
-            <FooterLink href="#">How We Work</FooterLink>
-            <FooterLink href="#">Our Office</FooterLink>
-            <FooterLink href="#">Reviews</FooterLink>
+            <FooterLink href="/about-us#values">Our Values</FooterLink>
+            <FooterLink href="/about-us#office">Our Office</FooterLink>
+            <FooterLink href="/about-us#team">Our Team</FooterLink>
+            <FooterLink href="/about-us#reviews">Reviews</FooterLink>
           </FooterColumn>
 
           <FooterColumn title="Services">
@@ -96,12 +94,11 @@ export default function Footer() {
 
           <FooterColumn title="Location">
             <div className="font-sans text-sm">
-              <p className="font-medium text-white">Smilery</p>
               <a
                 href="https://www.google.com/maps"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white/60 hover:text-white transition-colors leading-[1.6] mt-3 block"
+                className="text-white/60 hover:text-white transition-colors leading-[1.6] block"
               >
                 123 NE 2nd Ave
                 <br />
@@ -130,7 +127,7 @@ export default function Footer() {
         </div>
 
         <p className="font-sans text-xs text-white/60 leading-[1.6] pb-4 max-w-[60%]">
-          Copyright 2026 Smilery — Site Monitored &amp; Protected by DMCA
+          Copyright 2026 Patientfy — Site Monitored &amp; Protected by DMCA
         </p>
         <div className="pb-8" />
         </Container>
