@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import { Inter, Fraunces } from "next/font/google";
-import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
 import FontSwitcher from "@/components/font-switcher";
 import SmoothScroll from "@/components/smooth-scroll";
 import "./globals.css";
@@ -31,9 +29,7 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${fraunces.variable} antialiased`}>
       <body className="min-h-screen flex flex-col">
         <SmoothScroll />
-        <Navbar />
-        <div className="flex-1 pt-16">{children}</div>
-        <Footer />
+        {children}
         <FontSwitcher />
       </body>
     </html>

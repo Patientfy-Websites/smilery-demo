@@ -64,7 +64,7 @@ export default function Home() {
             <ImageReveal delay={0.5} onMount>
               <div className="relative aspect-square overflow-hidden">
                 <Image
-                  src="/images/hero-team.png"
+                  src="/images/hero-team.avif"
                   alt="Smilery team in the clinic"
                   fill
                   sizes="50vw"
@@ -87,7 +87,7 @@ export default function Home() {
             <ImageReveal>
               <div className="relative aspect-square overflow-hidden">
                 <Image
-                  src="/images/why-choose-us.png"
+                  src="/images/why-choose-us.avif"
                   alt="Doctor examining patient at Smilery"
                   fill
                   sizes="50vw"
@@ -209,28 +209,28 @@ export default function Home() {
                   title: "Dolor Sit",
                   desc: "Adipiscing elit, sed do eiusmod tempor.",
                   slug: "dolor-sit",
-                  img: "/images/services/teeth-diagram.png",
+                  img: "/images/services/teeth-diagram.avif",
                 },
                 {
                   num: "02",
                   title: "Amet Consectetur",
                   desc: "Ut labore et dolore magna aliqua enim.",
                   slug: "amet-consectetur",
-                  img: "/images/services/tooth-extraction.png",
+                  img: "/images/services/tooth-extraction.avif",
                 },
                 {
                   num: "03",
                   title: "Adipiscing",
                   desc: "Quis nostrud exercitation ullamco laboris.",
                   slug: "adipiscing",
-                  img: "/images/services/braces-illustration.png",
+                  img: "/images/services/braces-illustration.avif",
                 },
                 {
                   num: "04",
                   title: "Dental Treatment",
                   desc: "Lorem ipsum dolor sit amet consectetur.",
                   slug: "dental-treatment",
-                  img: "/images/services/dental-treatment.png",
+                  img: "/images/services/dental-treatment.avif",
                 },
               ].map((card) => (
                 <Link
@@ -317,28 +317,28 @@ export default function Home() {
                   name: "A. Lorem",
                   role: "Lorem Ipsum",
                   slug: "a-lorem",
-                  img: "/images/team/doctor-procedure.png",
+                  img: "/images/team/doctor-procedure.avif",
                 },
                 {
                   num: "02",
                   name: "B. Ipsum",
                   role: "Dolor Sit",
                   slug: "b-ipsum",
-                  img: "/images/team/doctor-portrait.png",
+                  img: "/images/team/doctor-portrait.avif",
                 },
                 {
                   num: "03",
                   name: "C. Dolor",
                   role: "Amet Consectetur",
                   slug: "c-dolor",
-                  img: "/images/team/hygienist-prep.png",
+                  img: "/images/team/hygienist-prep.avif",
                 },
                 {
                   num: "04",
                   name: "D. Sit",
                   role: "Adipiscing Elit",
                   slug: "d-sit",
-                  img: "/images/team/hygienist-procedure.png",
+                  img: "/images/team/hygienist-procedure.avif",
                 },
               ].map((member) => (
                 <Link

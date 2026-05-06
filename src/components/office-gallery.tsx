@@ -7,12 +7,12 @@ type Tile = {
 };
 
 const tiles: Tile[] = [
-  { src: "/images/office/restroom.webp", alt: "Modern restroom at Smilery" },
-  { src: "/images/office/reception-front.webp", alt: "Reception and waiting area at Smilery", className: "lg:row-span-2" },
-  { src: "/images/office/operatory.webp", alt: "Operatory and consultation room at Smilery" },
-  { src: "/images/office/lobby.webp", alt: "Lobby and check-in area at Smilery" },
-  { src: "/images/office/exam-area.webp", alt: "Open bay exam area at Smilery" },
-  { src: "/images/office/checkout.webp", alt: "Checkout and lounge at Smilery" },
+  { src: "/images/office/restroom.avif", alt: "Modern restroom at Smilery" },
+  { src: "/images/office/reception-front.avif", alt: "Reception and waiting area at Smilery", className: "lg:row-span-2" },
+  { src: "/images/office/operatory.avif", alt: "Operatory and consultation room at Smilery" },
+  { src: "/images/office/lobby.avif", alt: "Lobby and check-in area at Smilery" },
+  { src: "/images/office/exam-area.avif", alt: "Open bay exam area at Smilery" },
+  { src: "/images/office/checkout.avif", alt: "Checkout and lounge at Smilery" },
 ];
 
 export default function OfficeGallery() {

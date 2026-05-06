@@ -76,10 +76,11 @@
 @layer base {
   html {
     /*
-      Fluid root: escala de 14px (320vw) → 16px (768vw) → 18px (1440vw).
+      Fluid root: 14px @ 320vw → ~16px @ 768vw → 18px @ 1440vw → 22px cap.
+      Mobile floor em 14px para spacing/type não colapsarem em telas pequenas.
       Como tudo usa em, spacing / type / padding escalam junto.
     */
-    font-size: clamp(10px, 1.1111vw, 22px);
+    font-size: clamp(14px, calc(13px + 0.35vw), 22px);
   }
 
   /* Version A (default): Suisse Intl + Inter */

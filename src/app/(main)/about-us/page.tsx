@@ -52,7 +52,7 @@ export default function AboutPage() {
             <ImageReveal delay={0.4} onMount>
             <div className="relative aspect-[2/1] w-full overflow-hidden">
               <Image
-                src="/images/team-hero.png"
+                src="/images/team-hero.avif"
                 alt="Smilery team with patient"
                 fill
                 sizes="100vw"
@@ -74,7 +74,7 @@ export default function AboutPage() {
               <ImageReveal>
               <div className="relative aspect-square overflow-hidden">
                 <Image
-                  src="/images/patient-smile.png"
+                  src="/images/patient-smile.avif"
                   alt="Patient smiling during consultation at Smilery"
                   fill
                   sizes="50vw"
@@ -192,7 +192,7 @@ export default function AboutPage() {
               <ImageReveal delay={0.15}>
               <div className="relative aspect-square overflow-hidden">
                 <Image
-                  src="/images/doctor-consultation.png"
+                  src="/images/doctor-consultation.avif"
                   alt="Doctor consulting with patient at Smilery"
                   fill
                   sizes="50vw"
@@ -245,10 +245,10 @@ export default function AboutPage() {
               <Reveal delay={0.1}>
               <CardSlider>
                 {[
-                  { num: "01", name: "A. Lorem", role: "Lorem Ipsum", slug: "a-lorem", img: "/images/team/doctor-procedure.png" },
-                  { num: "02", name: "B. Ipsum", role: "Dolor Sit", slug: "b-ipsum", img: "/images/team/doctor-portrait.png" },
-                  { num: "03", name: "C. Dolor", role: "Amet Consectetur", slug: "c-dolor", img: "/images/team/hygienist-prep.png" },
-                  { num: "04", name: "D. Sit", role: "Adipiscing Elit", slug: "d-sit", img: "/images/team/hygienist-procedure.png" },
+                  { num: "01", name: "A. Lorem", role: "Lorem Ipsum", slug: "a-lorem", img: "/images/team/doctor-procedure.avif" },
+                  { num: "02", name: "B. Ipsum", role: "Dolor Sit", slug: "b-ipsum", img: "/images/team/doctor-portrait.avif" },
+                  { num: "03", name: "C. Dolor", role: "Amet Consectetur", slug: "c-dolor", img: "/images/team/hygienist-prep.avif" },
+                  { num: "04", name: "D. Sit", role: "Adipiscing Elit", slug: "d-sit", img: "/images/team/hygienist-procedure.avif" },
                 ].map((member) => (
                   <Link
                     key={member.slug}
