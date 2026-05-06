@@ -14,7 +14,7 @@ export default function WaitlistPage() {
   return (
     <section className="bg-cream flex-1 flex">
       <div className="px-6 w-full">
-        <div className="mx-auto max-w-[44em] min-h-screen flex flex-col items-center text-center gap-10 py-16">
+        <div className="mx-auto max-w-176 min-h-screen flex flex-col items-center text-center gap-10 py-16">
           {/* Logo */}
           <HeroReveal>
             <Link href="/coming-soon" aria-label="Smilery — back to home">
@@ -32,7 +32,7 @@ export default function WaitlistPage() {
 
             <HeroReveal delay={0.15}>
               <h1 className="font-display font-bold text-3xl md:text-4xl uppercase text-ink leading-[1.05]">
-                Be First
+                Be The First
                 To Know
               </h1>
             </HeroReveal>
