@@ -337,7 +337,7 @@ export default function Home() {
                   key={member.slug}
                   data-card
                   href="#"
-                  className="group flex flex-col gap-4 min-w-[calc((100%-3*1.25rem)/4)] shrink-0 snap-start"
+                  className="group flex flex-col gap-4 min-w-[calc((100%-2*1.25rem)/3)] shrink-0 snap-start"
                 >
                   <div className="relative aspect-[4/5] w-full bg-ink/5 overflow-hidden">
                     {"img" in member && member.img ? (
@@ -345,7 +345,7 @@ export default function Home() {
                         src={member.img}
                         alt={`Portrait of ${member.name}`}
                         fill
-                        sizes="25vw"
+                        sizes="33vw"
                         className="object-cover transition-transform duration-300 group-hover:scale-[1.03]"
                       />
                     ) : (

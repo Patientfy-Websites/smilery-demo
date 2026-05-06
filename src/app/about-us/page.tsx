@@ -69,7 +69,7 @@ export default function AboutPage() {
       <section id="values" className="bg-cream">
         <div className="px-6">
           <Container>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 py-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-x-12 gap-y-8 py-24">
               {/* Left — Image */}
               <ImageReveal>
               <div className="relative aspect-square overflow-hidden">
@@ -140,7 +140,7 @@ export default function AboutPage() {
       <section className="bg-cream">
         <div className="px-6">
           <Container>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 py-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-x-12 gap-y-8 py-24">
               {/* Left — Text */}
               <Reveal>
               <div className="flex flex-col justify-center gap-8">
@@ -211,7 +211,7 @@ export default function AboutPage() {
       <section id="team" className="bg-ink/[0.015]">
         <div className="px-6">
           <Container>
-            <div className="py-12 flex flex-col gap-12">
+            <div className="py-24 flex flex-col gap-12">
               <Reveal>
               <div className="flex flex-col gap-6">
                 <Eyebrow tone="soft" icon={Users}>Our Team</Eyebrow>
@@ -250,7 +250,7 @@ export default function AboutPage() {
                     key={member.slug}
                     data-card
                     href="#"
-                    className="group flex flex-col gap-4 min-w-[calc((100%-3*1.25rem)/4)] shrink-0 snap-start"
+                    className="group flex flex-col gap-4 min-w-[calc((100%-2*1.25rem)/3)] shrink-0 snap-start"
                   >
                     <div className="relative aspect-[4/5] w-full bg-ink/5 overflow-hidden">
                       <Image
@@ -284,7 +284,7 @@ export default function AboutPage() {
       <section id="reviews" className="bg-ink/[0.015] overflow-hidden">
         <div className="px-6">
           <Container>
-            <div className="py-12 flex flex-col gap-12">
+            <div className="py-24 flex flex-col gap-12">
               <Reveal>
               <div className="flex flex-col gap-6">
                 <Eyebrow tone="soft" icon={Star}>Reviews</Eyebrow>
@@ -333,7 +333,7 @@ export default function AboutPage() {
       <section id="office" className="bg-cream" aria-labelledby="office-heading">
         <div className="px-6">
           <Container>
-            <div className="flex flex-col gap-10 py-12">
+            <div className="flex flex-col gap-10 py-24">
               <Reveal>
               <div className="flex flex-col items-center text-center gap-6 max-w-[60em] mx-auto">
                 <Eyebrow tone="soft">Our Office</Eyebrow>
@@ -370,7 +370,7 @@ export default function AboutPage() {
       <section className="bg-ink">
         <div className="px-6">
           <Reveal>
-          <div className="flex flex-col items-center text-center gap-6 max-w-3xl mx-auto py-12">
+          <div className="flex flex-col items-center text-center gap-6 max-w-3xl mx-auto py-24">
             <Eyebrow tone="light" icon={CalendarCheck}>Book Now</Eyebrow>
 
             <h2 className="font-display font-bold text-2xl md:text-4xl leading-none uppercase text-cream">
