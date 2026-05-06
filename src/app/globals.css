@@ -1,6 +1,38 @@
 @import "tailwindcss";
 
 @font-face {
+  font-family: 'Suisse Intl';
+  src: url('/fonts/SuisseIntl-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisse Intl';
+  src: url('/fonts/SuisseIntl-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisse Intl';
+  src: url('/fonts/SuisseIntl-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisse Intl';
+  src: url('/fonts/SuisseIntl-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Bunken Tech Sans Wide';
   src: url('/fonts/BunkenTechSansStdWide-Med.woff2') format('woff2');
   font-weight: 500;
@@ -26,7 +58,7 @@
 
   /* ---------- Fonts ---------- */
   --font-display: 'Bunken Tech Sans Wide', sans-serif;
-  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-sans: 'Suisse Intl', system-ui, sans-serif;
   --font-accent: 'Fraunces', serif;
 
   /* ---------- Spacing base (em) ---------- */
@@ -50,11 +82,24 @@
     font-size: clamp(10px, 1.1111vw, 22px);
   }
 
+  /* Version A (default): Suisse Intl + Inter */
+  html {
+    --font-display: 'Suisse Intl', system-ui, sans-serif;
+    --font-sans: 'Inter', system-ui, sans-serif;
+  }
+
+  /* Version B: Bunken + Inter */
+  html[data-font="bunken"] {
+    --font-display: 'Bunken Tech Sans Wide', sans-serif;
+    --font-sans: 'Inter', system-ui, sans-serif;
+  }
+
   body {
     background-color: var(--color-cream);
     color: var(--color-ink);
     font-family: var(--font-sans);
     font-size: 0.875rem;
     line-height: 1.43;
+    letter-spacing: -0.01em;
   }
 }

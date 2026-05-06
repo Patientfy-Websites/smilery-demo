@@ -2,7 +2,7 @@ import { tv, type VariantProps } from "tailwind-variants";
 import type { LucideIcon } from "lucide-react";
 
 const eyebrow = tv({
-  base: "font-sans text-[0.625rem] tracking-widest uppercase font-medium inline-flex items-center gap-2",
+  base: "font-sans text-[0.625rem] tracking-wide uppercase font-semibold inline-flex items-center gap-2",
   variants: {
     tone: {
       default: "text-ink",

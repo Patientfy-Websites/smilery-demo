@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Fraunces } from "next/font/google";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
+import FontSwitcher from "@/components/font-switcher";
 import SmoothScroll from "@/components/smooth-scroll";
 import "./globals.css";
 
@@ -33,6 +34,7 @@ export default function RootLayout({
         <Navbar />
         <div className="flex-1 pt-16">{children}</div>
         <Footer />
+        <FontSwitcher />
       </body>
     </html>
   );

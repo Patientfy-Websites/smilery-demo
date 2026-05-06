@@ -18,7 +18,7 @@ export default function Home() {
     <section className="bg-cream">
       <div className="px-6">
         <Container>
-          <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 py-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 py-24">
             {/* Left — Text */}
             <div className="flex flex-col justify-center gap-16">
               <div className="flex flex-col gap-6">
@@ -82,7 +82,7 @@ export default function Home() {
     <section className="bg-ink/[0.015]">
       <div className="px-6">
         <Container>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 py-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 py-24">
             {/* Left — Image */}
             <ImageReveal>
               <div className="relative aspect-square overflow-hidden">
@@ -168,7 +168,7 @@ export default function Home() {
     <section className="bg-cream">
       <div className="px-6">
         <Container>
-          <div className="py-16 flex flex-col gap-12">
+          <div className="py-24 flex flex-col gap-12">
             {/* Intro */}
             <Reveal>
             <div className="flex flex-col gap-6">
@@ -272,7 +272,7 @@ export default function Home() {
     <section className="bg-ink/[0.015]">
       <div className="px-6">
         <Container>
-          <div className="pt-14 pb-14 flex flex-col gap-12">
+          <div className="py-24 flex flex-col gap-12">
             {/* Intro */}
             <Reveal>
             <div className="flex flex-col gap-6">
@@ -374,7 +374,7 @@ export default function Home() {
     <section className="bg-ink text-white overflow-hidden">
       <div className="px-6">
         <Container>
-          <div className="pt-14 pb-8 flex flex-col gap-12">
+          <div className="py-24 flex flex-col gap-12">
             {/* Intro */}
             <Reveal>
             <div className="flex flex-col gap-6">
@@ -447,7 +447,7 @@ export default function Home() {
     <section className="bg-ink">
       <div className="px-6 sm:px-8 lg:px-12">
         <Reveal>
-        <div className="flex flex-col items-center text-center gap-6 max-w-3xl mx-auto py-12 sm:py-16 lg:py-20">
+        <div className="flex flex-col items-center text-center gap-6 max-w-3xl mx-auto py-20 sm:py-24 lg:py-28">
           <Eyebrow tone="light" icon={CalendarCheck}>Book Now</Eyebrow>
 
           <h2 className="font-display font-bold text-2xl md:text-4xl leading-none uppercase text-cream">
