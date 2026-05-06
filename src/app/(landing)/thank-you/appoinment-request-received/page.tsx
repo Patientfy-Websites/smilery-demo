@@ -46,12 +46,7 @@ export default function AppointmentRequestReceivedPage() {
           </div>
 
           {/* Footer mark */}
-          <HeroReveal delay={0.5}>
-            <div className="inline-flex items-center gap-2 font-sans text-xs text-ink-muted">
-              <Lock className="w-3.5 h-3.5" strokeWidth={1.5} />
-              <span>smilery.com</span>
-            </div>
-          </HeroReveal>
+         
         </div>
       </div>
     </section>
