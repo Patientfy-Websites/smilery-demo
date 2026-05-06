@@ -171,27 +171,31 @@ export default function Home() {
           <div className="py-24 flex flex-col gap-12">
             {/* Intro */}
             <Reveal>
-            <div className="flex flex-col gap-6">
-              <Eyebrow tone="soft" icon={Stethoscope}>Our Services</Eyebrow>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6">
+              <div className="flex flex-col gap-6">
+                <Eyebrow tone="soft" icon={Stethoscope}>Our Services</Eyebrow>
 
-              <h2 className="font-display font-bold text-2xl md:text-4xl uppercase text-ink max-w-[14em]">
-                Lorem Ipsum Dolor Sit Amet.
-              </h2>
+                <h2 className="font-display font-bold text-2xl md:text-4xl uppercase text-ink max-w-[14em]">
+                  Lorem Ipsum Dolor Sit Amet.
+                </h2>
 
-              <div className="w-12 h-0.5 bg-accent" />
+                <div className="w-12 h-0.5 bg-accent" />
+              </div>
 
-              <p className="font-sans text-sm leading-relaxed text-ink-muted max-w-[30em]">
-                Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua.
-              </p>
+              <div className="flex flex-col justify-end gap-6">
+                <p className="font-sans text-sm leading-relaxed text-ink-muted max-w-[30em]">
+                  Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                  labore et dolore magna aliqua.
+                </p>
 
-              <div className="flex items-center gap-6">
-                <Button href="#" theme="primary" size="md">
-                  Book Now
-                </Button>
-                <Button href="#" theme="link" size="md">
-                  Learn More
-                </Button>
+                <div className="flex items-center gap-6">
+                  <Button href="#" theme="primary" size="md">
+                    Book Now
+                  </Button>
+                  <Button href="#" theme="link" size="md">
+                    Learn More
+                  </Button>
+                </div>
               </div>
             </div>
             </Reveal>
@@ -275,27 +279,31 @@ export default function Home() {
           <div className="py-24 flex flex-col gap-12">
             {/* Intro */}
             <Reveal>
-            <div className="flex flex-col gap-6">
-              <Eyebrow tone="soft" icon={Users}>Our Team</Eyebrow>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6">
+              <div className="flex flex-col gap-6">
+                <Eyebrow tone="soft" icon={Users}>Our Team</Eyebrow>
 
-              <h2 className="font-display font-bold text-2xl md:text-4xl uppercase text-ink max-w-[14em]">
-                Lorem Ipsum Dolor Sit.
-              </h2>
+                <h2 className="font-display font-bold text-2xl md:text-4xl uppercase text-ink max-w-[14em]">
+                  Lorem Ipsum Dolor Sit.
+                </h2>
 
-              <div className="w-12 h-0.5 bg-accent" />
+                <div className="w-12 h-0.5 bg-accent" />
+              </div>
 
-              <p className="font-sans text-sm leading-relaxed text-ink-muted max-w-[30em]">
-                Consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-                Lorem ipsum dolor sit amet.
-              </p>
+              <div className="flex flex-col justify-end gap-6">
+                <p className="font-sans text-sm leading-relaxed text-ink-muted max-w-[30em]">
+                  Consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                  Lorem ipsum dolor sit amet.
+                </p>
 
-              <div className="flex items-center gap-6">
-                <Button href="#" theme="primary" size="md">
-                  Book Now
-                </Button>
-                <Button href="#" theme="link" size="md">
-                  Meet the Team
-                </Button>
+                <div className="flex items-center gap-6">
+                  <Button href="#" theme="primary" size="md">
+                    Book Now
+                  </Button>
+                  <Button href="#" theme="link" size="md">
+                    Meet the Team
+                  </Button>
+                </div>
               </div>
             </div>
             </Reveal>
@@ -377,27 +385,31 @@ export default function Home() {
           <div className="py-24 flex flex-col gap-12">
             {/* Intro */}
             <Reveal>
-            <div className="flex flex-col gap-6">
-              <Eyebrow tone="light" icon={Star}>Reviews</Eyebrow>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6">
+              <div className="flex flex-col gap-6">
+                <Eyebrow tone="light" icon={Star}>Reviews</Eyebrow>
 
-              <h2 className="font-display font-bold text-2xl md:text-4xl uppercase text-white max-w-[14em]">
-                Lorem Ipsum Dolor.
-              </h2>
+                <h2 className="font-display font-bold text-2xl md:text-4xl uppercase text-white max-w-[14em]">
+                  Lorem Ipsum Dolor.
+                </h2>
 
-              <div className="w-12 h-0.5 bg-accent" />
+                <div className="w-12 h-0.5 bg-accent" />
+              </div>
 
-              <p className="font-sans text-sm leading-relaxed text-white/60 max-w-[30em]">
-                Consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-                Lorem ipsum dolor sit amet.
-              </p>
+              <div className="flex flex-col justify-end gap-6">
+                <p className="font-sans text-sm leading-relaxed text-white/60 max-w-[30em]">
+                  Consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                  Lorem ipsum dolor sit amet.
+                </p>
 
-              <div className="flex items-center gap-6">
-                <Button href="#" theme="white" size="md">
-                  Book Now
-                </Button>
-                <Button href="#" theme="outline-light" size="md">
-                  Read All
-                </Button>
+                <div className="flex items-center gap-6">
+                  <Button href="#" theme="white" size="md">
+                    Book Now
+                  </Button>
+                  <Button href="#" theme="outline-light" size="md">
+                    Read All
+                  </Button>
+                </div>
               </div>
             </div>
             </Reveal>

@@ -53,7 +53,7 @@ export default function CardSlider({ children }: { children: React.ReactNode }) 
           onClick={() => scroll(-1)}
           disabled={!canPrev}
           aria-label="Previous"
-          className="w-10 h-10 border border-ink/10 bg-transparent text-ink flex items-center justify-center transition-colors duration-200 hover:border-ink disabled:opacity-30 disabled:cursor-not-allowed"
+          className="w-10 h-10 border border-ink/10 bg-transparent text-ink flex items-center justify-center transition-colors duration-200 hover:border-ink cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed"
         >
           ←
         </button>
@@ -61,7 +61,7 @@ export default function CardSlider({ children }: { children: React.ReactNode }) 
           onClick={() => scroll(1)}
           disabled={!canNext}
           aria-label="Next"
-          className="w-10 h-10 bg-ink text-cream flex items-center justify-center transition-colors duration-200 hover:bg-accent disabled:opacity-30 disabled:cursor-not-allowed"
+          className="w-10 h-10 bg-ink text-cream flex items-center justify-center transition-colors duration-200 hover:bg-accent cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed"
         >
           →
         </button>
