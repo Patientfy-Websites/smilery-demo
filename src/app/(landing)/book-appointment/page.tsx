@@ -44,28 +44,25 @@ export default function WaitlistPage() {
 
           {/* Embedded form */}
           <HeroReveal delay={0.35} className="w-full pt-4">
-            <iframe
-              src="https://api.leadconnectorhq.com/widget/form/kAGOQ8rmI04g3T1Ymb94"
-              id="inline-kAGOQ8rmI04g3T1Ymb94"
-              title="Request Your Appointment"
-              data-layout="{'id':'INLINE'}"
-              data-trigger-type="alwaysShow"
-              data-trigger-value=""
-              data-activation-type="alwaysActivated"
-              data-activation-value=""
-              data-deactivation-type="neverDeactivate"
-              data-deactivation-value=""
-              data-form-name="Request Your Appointment"
-              data-height="932"
-              data-layout-iframe-id="inline-kAGOQ8rmI04g3T1Ymb94"
-              data-form-id="kAGOQ8rmI04g3T1Ymb94"
-              style={{
-                width: "100%",
-                height: "932px",
-                border: "none",
-                borderRadius: "3px",
-              }}
-            />
+          <iframe
+              src="https://api.leadconnectorhq.com/widget/form/wtDcnjWeVJaOvHTUpbPE"
+              style="width:100%;height:100%;border:none;border-radius:0px"
+              id="inline-wtDcnjWeVJaOvHTUpbPE"
+              data-layout="{'id':'INLINE'}"
+              data-trigger-type="alwaysShow"
+              data-trigger-value=""
+              data-activation-type="alwaysActivated"
+              data-activation-value=""
+              data-deactivation-type="neverDeactivate"
+              data-deactivation-value=""
+              data-form-name="Request Your Appointment - Copy"
+              data-height="731"
+              data-layout-iframe-id="inline-wtDcnjWeVJaOvHTUpbPE"
+              data-form-id="wtDcnjWeVJaOvHTUpbPE"
+              title="Request Your Appointment - Copy"
+                  >
+</iframe>
+
           </HeroReveal>
 
           {/* Back */}
