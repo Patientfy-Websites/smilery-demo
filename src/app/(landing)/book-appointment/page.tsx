@@ -25,25 +25,20 @@ export default function WaitlistPage() {
           {/* Heading */}
           <div className="flex w-full flex-col items-center gap-6 pt-4">
             <HeroReveal delay={0.1}>
-              <p className="font-sans text-xs tracking-widest uppercase font-medium text-ink">
-                Opening Summer 2026
-              </p>
-            </HeroReveal>
-
-            <HeroReveal delay={0.15}>
               <h1 className="font-display font-bold text-3xl md:text-4xl uppercase text-ink leading-[1.05] whitespace-nowrap">
                 Be The First To Know
               </h1>
             </HeroReveal>
 
-            <HeroReveal delay={0.2}>
+            <HeroReveal delay={0.15}>
               <div className="w-10 h-0.5 bg-accent" />
             </HeroReveal>
 
-            <HeroReveal delay={0.25}>
-              <p className="font-sans text-sm leading-relaxed text-ink-muted max-w-[22em]">
-                Join the waitlist to be notified when we open.
-              </p>
+            <HeroReveal delay={0.2}>
+              <div className="flex flex-col gap-1 font-sans text-sm leading-relaxed text-ink-muted max-w-[22em]">
+                <p>A new kind of orthodontic experience is coming to Miami Shores.</p>
+                <p>Join the waitlist for early access.</p>
+              </div>
             </HeroReveal>
           </div>
 

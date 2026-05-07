@@ -11,7 +11,7 @@ export default function ComingSoonPage() {
   return (
     <section className="bg-cream flex-1 flex">
       <div className="px-6 w-full">
-        <div className="mx-auto max-w-[34em] min-h-screen flex flex-col items-center justify-center text-center gap-12 py-16">
+        <div className="mx-auto max-w-[34em] min-h-screen flex flex-col items-center justify-center text-center gap-24 py-16">
           <HeroReveal>
             <Logo className="h-10 sm:h-12 w-auto text-ink" />
           </HeroReveal>
