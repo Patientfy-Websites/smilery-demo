@@ -31,9 +31,8 @@ export default function WaitlistPage() {
             </HeroReveal>
 
             <HeroReveal delay={0.15}>
-              <h1 className="font-display font-bold text-3xl md:text-4xl uppercase text-ink leading-[1.05]">
-                Be The First
-                To Know
+              <h1 className="font-display font-bold text-3xl md:text-4xl uppercase text-ink leading-[1.05] whitespace-nowrap">
+                Be The First To Know
               </h1>
             </HeroReveal>
 

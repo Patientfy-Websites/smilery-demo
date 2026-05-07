@@ -1,48 +1,8 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: 'Suisse Intl';
-  src: url('/fonts/SuisseIntl-Thin.otf') format('opentype');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Suisse Intl';
-  src: url('/fonts/SuisseIntl-Light.otf') format('opentype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Suisse Intl';
-  src: url('/fonts/SuisseIntl-Regular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Suisse Intl';
-  src: url('/fonts/SuisseIntl-SemiBold.otf') format('opentype');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Bunken Tech Sans Wide';
-  src: url('/fonts/BunkenTechSansStdWide-Med.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Bunken Tech Sans Wide';
-  src: url('/fonts/BunkenTechSansStdWide-Bold.woff2') format('woff2');
+  font-family: 'Urbano Expanded';
+  src: url('/fonts/UrbanoExpanded.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -54,11 +14,11 @@
   --color-ink: #0E0E0E;
   --color-ink-soft: #2A2A2A;
   --color-ink-muted: rgba(14, 14, 14, 0.55);
-  --color-accent: #FF8A7A;
+  --color-accent: #E98C73;
 
   /* ---------- Fonts ---------- */
-  --font-display: 'Bunken Tech Sans Wide', sans-serif;
-  --font-sans: 'Suisse Intl', system-ui, sans-serif;
+  --font-display: 'Urbano Expanded', sans-serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
   --font-accent: 'Fraunces', serif;
 
   /* ---------- Spacing base (em) ---------- */
@@ -83,17 +43,7 @@
     font-size: clamp(14px, calc(13px + 0.35vw), 22px);
   }
 
-  /* Version A (default): Suisse Intl + Inter */
-  html {
-    --font-display: 'Suisse Intl', system-ui, sans-serif;
-    --font-sans: 'Inter', system-ui, sans-serif;
-  }
 
-  /* Version B: Bunken + Inter */
-  html[data-font="bunken"] {
-    --font-display: 'Bunken Tech Sans Wide', sans-serif;
-    --font-sans: 'Inter', system-ui, sans-serif;
-  }
 
   body {
     background-color: var(--color-cream);

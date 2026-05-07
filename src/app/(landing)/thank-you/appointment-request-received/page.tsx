@@ -26,10 +26,8 @@ export default function AppointmentRequestReceivedPage() {
 
             <div className="flex flex-col items-center gap-6">
               <HeroReveal delay={0.2}>
-                <h1 className="font-display font-bold text-3xl md:text-4xl uppercase text-ink leading-[1.05]">
-                  You&apos;re
-                  <br />
-                  on the List
+                <h1 className="font-display font-bold text-3xl md:text-4xl uppercase text-ink leading-[1.05] whitespace-nowrap">
+                  You&apos;re on the List
                 </h1>
               </HeroReveal>
 

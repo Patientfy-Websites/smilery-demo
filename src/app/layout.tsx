@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Inter, Fraunces } from "next/font/google";
-import FontSwitcher from "@/components/font-switcher";
 import SmoothScroll from "@/components/smooth-scroll";
 import "./globals.css";
 
@@ -30,7 +29,6 @@ export default function RootLayout({
       <body className="min-h-screen flex flex-col">
         <SmoothScroll />
         {children}
-        <FontSwitcher />
       </body>
     </html>
   );
