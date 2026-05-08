@@ -15,36 +15,31 @@ export default function AppointmentRequestReceivedPage() {
         <div className="mx-auto max-w-[28em] min-h-screen flex flex-col items-center text-center py-16">
           {/* Logo */}
           <HeroReveal>
-            <Logo className="h-7 sm:h-8 w-auto text-ink" />
+            <Logo className="h-12 sm:h-14 w-auto text-ink" />
           </HeroReveal>
 
-          {/* Centered message */}
-          <div className="flex-1 flex flex-col items-center justify-center gap-8 w-full">
+          {/* Content block — checkmark + heading + dash + paragraph, evenly spaced */}
+          <div className="flex flex-col items-center gap-8 mt-[25vh]">
             <HeroReveal delay={0.1}>
               <CheckCircle />
             </HeroReveal>
 
-            <div className="flex flex-col items-center gap-6">
-              <HeroReveal delay={0.2}>
-                <h1 className="font-display font-bold text-3xl md:text-4xl uppercase text-ink leading-[1.05] whitespace-nowrap">
-                  You&apos;re on the List
-                </h1>
-              </HeroReveal>
+            <HeroReveal delay={0.2}>
+              <h1 className="font-display font-bold text-3xl md:text-4xl uppercase text-ink leading-[1.05] whitespace-nowrap">
+                You&apos;re on the List
+              </h1>
+            </HeroReveal>
 
-              <HeroReveal delay={0.3}>
-                <div className="w-10 h-0.5 bg-accent" />
-              </HeroReveal>
+            <HeroReveal delay={0.3}>
+              <div className="w-10 h-0.5 bg-accent" />
+            </HeroReveal>
 
-              <HeroReveal delay={0.4}>
-                <p className="font-sans text-sm leading-relaxed text-ink-muted max-w-[20em]">
-                  We&apos;ll let you know as soon as we open.
-                </p>
-              </HeroReveal>
-            </div>
+            <HeroReveal delay={0.4}>
+              <p className="font-sans text-sm leading-relaxed text-ink-muted max-w-80">
+                You&apos;ll receive opening updates from Smilery.
+              </p>
+            </HeroReveal>
           </div>
-
-          {/* Footer mark */}
-         
         </div>
       </div>
     </section>
@@ -56,8 +51,8 @@ export default function AppointmentRequestReceivedPage() {
 function CheckCircle() {
   return (
     <svg
-      width="64"
-      height="64"
+      width="52"
+      height="52"
       viewBox="0 0 64 64"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

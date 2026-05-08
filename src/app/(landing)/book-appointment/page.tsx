@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Script from "next/script";
-import { ArrowLeft } from "lucide-react";
 import HeroReveal from "@/components/hero-reveal";
 import Logo from "@/components/logo";
 
@@ -18,15 +17,15 @@ export default function WaitlistPage() {
           {/* Logo */}
           <HeroReveal>
             <Link href="/coming-soon" aria-label="Smilery — back to home">
-              <Logo className="h-7 sm:h-8 w-auto text-ink" />
+              <Logo className="h-12 sm:h-14 w-auto text-ink" />
             </Link>
           </HeroReveal>
 
           {/* Heading */}
           <div className="flex w-full flex-col items-center gap-6 pt-4">
             <HeroReveal delay={0.1}>
-              <h1 className="font-display font-bold text-3xl md:text-4xl uppercase text-ink leading-[1.05] whitespace-nowrap">
-                Be The First To Know
+              <h1 className="font-display font-bold text-2xl md:text-3xl uppercase text-ink leading-[1.05] whitespace-nowrap">
+                Be First To Know
               </h1>
             </HeroReveal>
 
@@ -36,8 +35,8 @@ export default function WaitlistPage() {
 
             <HeroReveal delay={0.2}>
               <div className="flex flex-col gap-1 font-sans text-sm leading-relaxed text-ink-muted max-w-[22em]">
-                <p>A new kind of orthodontic experience is coming to Miami Shores.</p>
-                <p>Join the waitlist for early access.</p>
+                <p>A new space for orthodontics.</p>
+                <p>Join the waitlist for opening updates.</p>
               </div>
             </HeroReveal>
           </div>
@@ -63,16 +62,6 @@ export default function WaitlistPage() {
             />
           </HeroReveal>
 
-          {/* Back */}
-          <HeroReveal delay={0.45}>
-            <Link
-              href="/coming-soon"
-              className="inline-flex items-center gap-3 font-sans text-xs tracking-widest uppercase font-medium text-ink hover:text-accent transition-colors duration-200 mt-4"
-            >
-              <ArrowLeft className="w-4 h-4" strokeWidth={1.5} />
-              Back
-            </Link>
-          </HeroReveal>
         </div>
       </div>
 
