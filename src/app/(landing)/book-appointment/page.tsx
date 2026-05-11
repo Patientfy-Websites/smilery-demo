@@ -42,7 +42,7 @@ export default function WaitlistPage() {
           </div>
 
           {/* Embedded form */}
-          <HeroReveal delay={0.35} className="w-full max-w-[26em] mx-auto pt-4">
+          <HeroReveal delay={0.35} className="w-full max-w-104 md:max-w-none mx-auto pt-4">
             <iframe
               src="https://api.leadconnectorhq.com/widget/form/wtDcnjWeVJaOvHTUpbPE"
               style={{ width: "100%", height: "100%", border: "none", borderRadius: "0px" }}
