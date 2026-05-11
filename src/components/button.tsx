@@ -3,7 +3,7 @@ import Link from "next/link";
 import { type ComponentProps } from "react";
 
 const button = tv({
-  base: "inline-flex items-center justify-center font-sans font-medium tracking-wide uppercase leading-none transition-colors duration-200",
+  base: "inline-flex items-center justify-center font-display font-bold tracking-wide uppercase leading-none transition-colors duration-200",
   variants: {
     theme: {
       primary: "bg-ink text-cream hover:bg-accent",
