@@ -18,7 +18,7 @@ export default function ComingSoonPage() {
 
           <div className="flex flex-col items-center gap-12">
             <HeroReveal delay={0.1}>
-              <h1 className="font-display font-bold text-3xl md:text-4xl uppercase text-ink leading-[1.05] tracking-[0.15em] max-w-[12em]">
+              <h1 className="font-display font-bold text-3xl md:text-4xl uppercase text-ink leading-[1.05] text-center tracking-[0.15em]">
                 Orthodontics,
                 <br />
                 Reimagined.
@@ -31,8 +31,8 @@ export default function ComingSoonPage() {
 
             <HeroReveal delay={0.3}>
               <div className="flex flex-col gap-1 font-sans text-xs tracking-widest uppercase font-medium text-ink">
-                <p className="tracking-[0.3em]">Opening Summer 2026</p>
-                <p>Miami Shores, FL</p>
+                <p className="tracking-widest">Opening Summer 2026</p>
+                <p className="tracking-widest">Miami Shores, FL</p>
               </div>
             </HeroReveal>
           </div>

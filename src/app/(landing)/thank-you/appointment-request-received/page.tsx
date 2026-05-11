@@ -20,12 +20,12 @@ export default function AppointmentRequestReceivedPage() {
 
           {/* Content block — checkmark + heading + dash + paragraph, evenly spaced */}
           <div className="flex flex-col items-center gap-8 mt-[25vh]">
-            <HeroReveal delay={0.1} className="-translate-y-24">
+            <HeroReveal delay={0.1} className="">
               <CheckCircle />
             </HeroReveal>
 
             <HeroReveal delay={0.2}>
-              <h1 className="font-display font-bold text-2xl md:text-3xl uppercase text-ink leading-[1.05] whitespace-nowrap">
+              <h1 className="font-display font-bold text-3xl md:text-4xl uppercase text-ink leading-[1.05] tracking-[0.15em] text-center whitespace-nowrap">
                 You&apos;re on the List
               </h1>
             </HeroReveal>
@@ -35,7 +35,7 @@ export default function AppointmentRequestReceivedPage() {
             </HeroReveal>
 
             <HeroReveal delay={0.4}>
-              <p className="font-sans text-sm leading-relaxed text-ink-muted whitespace-nowrap">
+              <p className="font-sans text-sm leading-relaxed text-ink-muted whitespace-nowrap tracking-wide font-medium">
                 You&apos;ll receive opening updates from Smilery.
               </p>
             </HeroReveal>

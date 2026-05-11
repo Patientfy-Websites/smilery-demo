@@ -24,9 +24,11 @@ export default function WaitlistPage() {
           {/* Heading */}
           <div className="flex w-full flex-col items-center gap-6 pt-4">
             <HeroReveal delay={0.1}>
-              <h1 className="font-display font-bold text-2xl md:text-3xl uppercase text-ink leading-[1.05] whitespace-nowrap">
+              <h1 className="font-display font-bold text-3xl md:text-4xl uppercase text-ink leading-[1.05] tracking-[0.15em] text-center  whitespace-nowrap">
                 Be First To Know
               </h1>
+
+              
             </HeroReveal>
 
             <HeroReveal delay={0.15}>
@@ -35,8 +37,8 @@ export default function WaitlistPage() {
 
             <HeroReveal delay={0.2}>
               <div className="flex flex-col gap-1 font-sans text-sm leading-relaxed text-ink-muted max-w-[22em]">
-                <p>A new space for orthodontics.</p>
-                <p>Join the waitlist for opening updates.</p>
+                <p className="font-sans text-sm leading-relaxed text-ink-muted whitespace-nowrap tracking-wide font-medium" >A new space for orthodontics.</p>
+                <p className="font-sans text-sm leading-relaxed text-ink-muted whitespace-nowrap tracking-wide font-medium">Join the waitlist for opening updates.</p>
               </div>
             </HeroReveal>
           </div>
