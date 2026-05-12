@@ -24,7 +24,7 @@ export default function WaitlistPage() {
           {/* Heading */}
           <div className="flex w-full flex-col items-center gap-6 pt-4">
             <HeroReveal delay={0.1}>
-              <h1 className="font-display font-bold text-3xl md:text-4xl uppercase text-ink leading-[1.05] tracking-[0.15em] text-center  whitespace-nowrap">
+            <h1 className="font-display font-bold text-3xl md:text-4xl uppercase text-ink leading-[1.05] tracking-widest text-center  whitespace-nowrap">
                 Be First To Know
               </h1>
 
@@ -44,7 +44,7 @@ export default function WaitlistPage() {
           </div>
 
           {/* Embedded form */}
-          <HeroReveal delay={0.35} className="w-full max-w-104 md:max-w-none mx-auto pt-4">
+          <HeroReveal delay={0.35} className="w-full max-w-106 md:max-w-none mx-auto pt-4">
             <iframe
               src="https://api.leadconnectorhq.com/widget/form/wtDcnjWeVJaOvHTUpbPE"
               style={{ width: "100%", height: "100%", border: "none", borderRadius: "0px" }}

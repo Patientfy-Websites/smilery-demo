@@ -44,11 +44,18 @@
 @layer base {
   html {
     /*
-      Fluid root: 14px @ 320vw → ~16px @ 768vw → 18px @ 1440vw → 22px cap.
-      Mobile floor em 14px para spacing/type não colapsarem em telas pequenas.
+      Fluid root com dois estágios:
+      Mobile  (< 768px): multiplicador menor → cresce mais devagar
+      Desktop (≥ 768px): multiplicador maior → escala normal até o cap
       Como tudo usa em, spacing / type / padding escalam junto.
     */
-    font-size: clamp(14px, calc(13px + 0.35vw), 22px);
+    font-size: clamp(14px, calc(13px + 0.225vw), 22px);
+  }
+
+  @media (min-width: 768px) {
+    html {
+      font-size: clamp(14px, calc(13px + 0.35vw), 22px);
+    }
   }
 
 
@@ -58,7 +65,7 @@
     color: var(--color-ink);
     font-family: var(--font-sans);
     font-size: 0.875rem;
-    line-height: 1.43;
+    line-height: 1.5;
     letter-spacing: -0.01em;
   }
 }
