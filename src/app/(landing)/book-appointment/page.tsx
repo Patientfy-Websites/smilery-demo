@@ -24,7 +24,7 @@ export default function WaitlistPage() {
           {/* Heading */}
           <div className="flex w-full flex-col items-center gap-6 pt-4">
             <HeroReveal delay={0.1}>
-            <h1 className="font-display font-bold text-3xl md:text-4xl uppercase text-ink leading-[1.05] tracking-widest text-center  whitespace-nowrap">
+            <h1 className="font-display font-bold text-[1.8125em] md:text-4xl uppercase text-ink leading-[1.05] tracking-widest text-center  whitespace-nowrap">
                 Be First To Know
               </h1>
 
