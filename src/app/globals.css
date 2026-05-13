@@ -41,12 +41,13 @@
   100% { transform: translateX(-50%); }
 }
 
-@layer base {
-  .hero-reveal-hidden {
-    opacity: 0 !important;
-    filter: blur(20px) !important;
-  }
+/* Outside @layer so iOS Safari applies it before first paint */
+.hero-reveal-hidden {
+  opacity: 0 !important;
+  filter: blur(20px) !important;
+}
 
+@layer base {
   html {
     /*
       Fluid root com dois estágios:
