@@ -43,8 +43,7 @@
 
 /* Outside @layer so iOS Safari applies it before first paint */
 .hero-reveal-hidden {
-  opacity: 0 !important;
-  filter: blur(20px) !important;
+  visibility: hidden !important;
 }
 
 @layer base {

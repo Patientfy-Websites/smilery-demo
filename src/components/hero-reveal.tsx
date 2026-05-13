@@ -20,8 +20,7 @@ export default function HeroReveal({
 
     // Remove CSS-based hiding so GSAP takes full control
     el.classList.remove("hero-reveal-hidden");
-    el.style.removeProperty("opacity");
-    el.style.removeProperty("filter");
+    el.style.visibility = "visible";
 
     gsap.fromTo(
       el,
@@ -43,7 +42,7 @@ export default function HeroReveal({
     <div
       ref={ref}
       className={`hero-reveal-hidden ${className}`}
-      style={{ opacity: 0, filter: "blur(20px)" }}
+      style={{ visibility: "hidden" }}
     >
       {children}
     </div>
