@@ -41,11 +41,6 @@
   100% { transform: translateX(-50%); }
 }
 
-/* Outside @layer so iOS Safari applies it before first paint */
-.hero-reveal-hidden {
-  visibility: hidden !important;
-}
-
 @layer base {
   html {
     /*
