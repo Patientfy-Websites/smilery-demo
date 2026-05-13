@@ -18,6 +18,9 @@ export default function HeroReveal({
     const el = ref.current;
     if (!el) return;
 
+    // Remove the CSS-based hiding class so GSAP takes over
+    el.classList.remove("hero-reveal-hidden");
+
     gsap.fromTo(
       el,
       {
@@ -35,7 +38,7 @@ export default function HeroReveal({
   }, [delay]);
 
   return (
-    <div ref={ref} className={className} style={{ opacity: 0 }}>
+    <div ref={ref} className={`hero-reveal-hidden ${className}`}>
       {children}
     </div>
   );

@@ -42,6 +42,11 @@
 }
 
 @layer base {
+  .hero-reveal-hidden {
+    opacity: 0 !important;
+    filter: blur(20px) !important;
+  }
+
   html {
     /*
       Fluid root com dois estágios:
