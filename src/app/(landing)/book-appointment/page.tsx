@@ -63,7 +63,7 @@ export default function WaitlistPage() {
 
             <HeroReveal delay={0.2}>
               <div className="flex flex-col gap-0.5 font-sans text-sm leading-relaxed text-ink-muted max-w-[22em] pt-1">
-                <p className="font-sans text-sm leading-relaxed text-ink-muted whitespace-nowrap tracking-wide font-medium">A new space for orthodontics.</p>
+                <p className="font-sans text-sm leading-relaxed text-ink-muted whitespace-nowrap tracking-wide font-medium">A new space for braces and clear aligners.</p>
                 <p className="font-sans text-sm leading-relaxed text-ink-muted whitespace-nowrap tracking-wide font-medium">Join the waitlist for opening updates.</p>
               </div>
             </HeroReveal>
