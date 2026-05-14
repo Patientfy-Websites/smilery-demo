@@ -1,0 +1,26 @@
+{
+  "name": "Smilery — Orthodontics, Reimagined",
+  "short_name": "Smilery",
+  "description": "Modern orthodontics practice in Miami Shores, FL. Braces, Invisalign, clear aligners — orthodontics, reimagined.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F4EFEA",
+  "theme_color": "#F4EFEA",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US",
+  "categories": ["health", "medical"],
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/opengraph-image.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

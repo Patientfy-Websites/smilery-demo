@@ -1,0 +1,215 @@
+# Smilery — Orthodontics, Reimagined (Full Reference)
+
+> Comprehensive guide to Smilery orthodontics practice — Miami Shores, FL
+
+This is the extended version of llms.txt for AI systems that need deeper context about Smilery.
+
+---
+
+## Brand Identity
+
+**Name:** Smilery
+**Legal Name:** Smilery Orthodontics LLC
+**Tagline:** Orthodontics, Reimagined
+**Founded:** 2026
+**Industry:** Healthcare / Orthodontics
+**Tax ID:** lorem-tax-id
+
+### Brand Values
+1. **Patient-First Experience** — Every touchpoint is designed around patient comfort and confidence
+2. **Modern Technology** — Digital X-rays, 3D intraoral scanning, advanced treatment planning software
+3. **Aesthetic Excellence** — A design-forward practice that reflects the beauty of the smiles we create
+4. **Community** — Deeply rooted in the Miami Shores community, serving diverse families
+5. **Transparency** — Clear pricing, honest timelines, and open communication throughout treatment
+
+### Brand Aesthetic
+- **Color Palette:** Cream (#F4EFEA) primary background, Ink (#0E0E0E) primary text, Coral/Salmon accent (#E98C73)
+- **Typography:** Urbano Expanded (display), Inter (body), Fraunces (accent/italic)
+- **Design Approach:** Clean, minimal, premium healthcare aesthetic
+
+---
+
+## Detailed Services
+
+### Traditional Metal Braces
+- **Description:** High-quality stainless steel brackets and archwires for precise teeth alignment
+- **Ideal For:** Children, teens, and adults with moderate to complex orthodontic needs
+- **Duration:** 12–24 months typical treatment time
+- **Includes:** All adjustment appointments, emergency visits, and basic retainer set
+- **Technology:** Self-ligating brackets for faster treatment and fewer adjustments
+
+### Ceramic Braces
+- **Description:** Tooth-colored polycrystalline alumina brackets that blend naturally with teeth
+- **Ideal For:** Patients who want effective braces with a more subtle appearance
+- **Duration:** 12–24 months typical treatment time
+- **Advantage:** Nearly invisible on teeth while providing the same effectiveness as metal braces
+
+### Invisalign Clear Aligners
+- **Description:** Custom-fabricated, FDA-cleared clear plastic aligners by Align Technology
+- **Ideal For:** Teens and adults with mild to moderate alignment issues
+- **Duration:** 6–18 months typical treatment time
+- **Features:** Removable for eating and brushing, virtually invisible, SmartTrack material
+- **Includes:** All aligner sets, refinement aligners, and retainers
+
+### Clear Aligner Therapy
+- **Description:** Premium clear aligner treatment using advanced 3D planning technology
+- **Ideal For:** Adults and teens seeking the most discreet orthodontic option
+- **Duration:** Varies by complexity
+- **Features:** Custom treatment planning with predictive 3D modeling
+
+### Early Orthodontic Treatment (Phase I)
+- **Description:** Interceptive orthodontic treatment for developing children
+- **Ideal For:** Children ages 7–10 with crossbites, crowding, or jaw growth issues
+- **Duration:** 6–12 months
+- **Goal:** Guide jaw growth, create space for permanent teeth, correct harmful habits
+
+### Surgical Orthodontics
+- **Description:** Combined orthodontic-surgical treatment for severe skeletal discrepancies
+- **Ideal For:** Adults with significant jaw alignment issues that cannot be corrected with braces alone
+- **Process:** Pre-surgical orthodontics → orthognathic surgery → post-surgical orthodontics
+- **Coordination:** Works closely with board-certified oral and maxillofacial surgeons
+
+### Retainers & Post-Treatment Care
+- **Description:** Custom retainers to maintain treatment results long-term
+- **Options:** Clear (Essix) retainers, Hawley retainers, permanent bonded retainers
+- **Recommendation:** Full-time wear for 6 months post-treatment, then nighttime wear indefinitely
+
+---
+
+## Team & Credentials
+
+### Dr. Lorem Ipsum, DMD, MS — Lead Orthodontist
+- **Education:**
+  - Bachelor of Science in Biology — Lorem University
+  - Doctor of Dental Medicine (DMD) — Lorem University School of Dental Medicine
+  - Master of Science in Orthodontics (MS) — Lorem Institute of Orthodontics
+  - Certificate in Orthodontics and Dentofacial Orthopedics
+- **Board Certification:** American Board of Orthodontics (ABO) Certified
+- **Professional Memberships:**
+  - American Association of Orthodontists (AAO)
+  - American Dental Association (ADA)
+  - Florida Dental Association (FDA)
+  - Southern Association of Orthodontists (SAO)
+  - Miami-Dade Dental Society
+- **Experience:** Over 10 years treating children, teens, and adults
+- **Specialties:** Invisalign Diamond Provider, complex adult cases, early intervention
+- **Philosophy:** "Every patient deserves a smile that reflects their best self. At Smilery, we combine the latest technology with genuine care to create an orthodontic experience that's as beautiful as the results."
+
+---
+
+## Office & Facilities
+
+### Office Design
+- Modern, design-forward aesthetic with warm cream tones and natural materials
+- Open-concept treatment area with private consultation rooms
+- Digital check-in kiosks for seamless arrival experience
+- Dedicated sterilization center exceeding OSHA and CDC standards
+
+### Technology
+- **Digital X-rays** — 80% less radiation than traditional X-rays
+- **3D Intraoral Scanner** — Eliminates messy impressions, provides instant digital models
+- **CBCT (Cone Beam CT)** — 3D imaging for precise diagnosis and treatment planning
+- **Digital Treatment Planning** — Advanced software for predictive treatment visualization
+- **Patient Portal** — Online appointment scheduling, treatment progress tracking, and communication
+
+### Amenities
+- Free on-site parking
+- Full wheelchair accessibility (ADA compliant)
+- Complimentary high-speed Wi-Fi
+- Complimentary beverages (coffee, tea, water, juice)
+- Individual TVs with streaming in each treatment bay
+- Charging stations for mobile devices
+- Kid-friendly waiting area with entertainment
+- Comfortable seating with massage chairs in waiting area
+
+---
+
+## Insurance & Financial Information
+
+### Accepted Insurance Plans
+- Delta Dental (Premier & PPO)
+- Cigna Dental
+- Aetna Dental
+- MetLife Dental
+- United Healthcare Dental
+- Guardian Dental
+- Humana Dental
+- BlueCross BlueShield Dental
+- Florida Healthy Kids
+- Medicaid (select plans)
+- And many more — call to verify your specific plan
+
+### Payment Options
+- Cash
+- Visa, Mastercard, American Express, Discover
+- HSA (Health Savings Account)
+- FSA (Flexible Spending Account)
+- CareCredit financing (0% interest options available)
+- In-house payment plans (no credit check, 0% interest)
+
+### Pricing Philosophy
+- Transparent, upfront pricing with no hidden fees
+- Free initial orthodontic consultation (valued at $250)
+- Treatment fees include all follow-up appointments
+- Family discounts available for multiple family members in treatment
+
+---
+
+## Service Area (Detailed)
+
+### Primary Service Area (0–5 miles)
+- Miami Shores, FL 33138
+- Biscayne Park, FL 33161
+- El Portal, FL 33138
+- North Miami, FL 33161
+
+### Secondary Service Area (5–15 miles)
+- Miami, FL (Downtown, Midtown, Wynwood, Design District, Brickell)
+- Miami Beach, FL 33139/33140/33141
+- North Miami Beach, FL 33160
+- Aventura, FL 33180
+- Bal Harbour, FL 33154
+- Surfside, FL 33154
+- Bay Harbor Islands, FL 33154
+
+### Extended Service Area (15–30 miles)
+- Fort Lauderdale, FL
+- Hollywood, FL
+- Coral Gables, FL
+- Coconut Grove, FL
+- Hialeah, FL
+- Doral, FL
+- Homestead, FL
+
+---
+
+## Contact & Social
+
+- **Website:** https://smilery.com
+- **Phone:** (305) 555-0100
+- **Email:** hello@smilery.com
+- **Appointments:** appointments@smilery.com
+- **Address:** 123 NE 2nd Ave, Miami Shores, FL 33138
+- **Google Maps:** https://maps.google.com/?q=Smilery+Orthodontics+123+NE+2nd+Ave+Miami+Shores+FL+33138
+- **Facebook:** https://www.facebook.com/smileryortho
+- **Instagram:** https://www.instagram.com/smileryortho
+- **TikTok:** https://www.tiktok.com/@smileryortho
+- **YouTube:** https://www.youtube.com/@smileryortho
+- **LinkedIn:** https://www.linkedin.com/company/smilery
+- **Yelp:** https://www.yelp.com/biz/smilery-orthodontics-miami-shores
+
+---
+
+## Sitemap
+
+- https://smilery.com — Home / Landing Page
+- https://smilery.com/book-appointment — Join Waitlist / Request Appointment
+- https://smilery.com/about-us — About Smilery, Our Values, Office, Team, Reviews
+- https://smilery.com/services — All Orthodontic Services
+- https://smilery.com/services/braces — Braces (Metal & Ceramic)
+- https://smilery.com/services/invisalign — Invisalign Clear Aligners
+- https://smilery.com/services/clear-aligners — Clear Aligner Therapy
+- https://smilery.com/blog — Orthodontic Blog & Resources
+- https://smilery.com/contact — Contact Information & Directions
+- https://smilery.com/insurance — Insurance Information
+- https://smilery.com/financing — Financing & Payment Options
