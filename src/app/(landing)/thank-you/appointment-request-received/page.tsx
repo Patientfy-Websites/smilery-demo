@@ -27,7 +27,7 @@ export default function AppointmentRequestReceivedPage() {
           {/* Content block — checkmark + heading + dash + paragraph, evenly spaced */}
           <div className="flex flex-col items-center gap-8 mt-[25vh]">
             <HeroReveal delay={0.1} className="">
-              <CheckCircle />
+                <CheckCircle />
             </HeroReveal>
 
             <HeroReveal delay={0.2}>
