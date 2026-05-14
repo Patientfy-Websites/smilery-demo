@@ -25,7 +25,7 @@ export default function AppointmentRequestReceivedPage() {
             </HeroReveal>
 
             <HeroReveal delay={0.2}>
-              <h1 className="font-display font-bold text-[1.8125em] md:text-4xl uppercase text-ink leading-[1.05] tracking-widest text-center whitespace-nowrap">
+              <h1 className="font-display font-bold text-[1.8125em] md:text-4xl uppercase text-ink leading-[1.35] tracking-[0.175em] text-center whitespace-nowrap">
                 You&apos;re on the List
               </h1>
             </HeroReveal>

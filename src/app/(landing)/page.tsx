@@ -18,7 +18,7 @@ export default function ComingSoonPage() {
 
           <div className="flex flex-col items-center gap-12">
             <HeroReveal delay={0.1}>
-              <h1 className="font-display font-bold text-[1.8125em] md:text-4xl uppercase text-ink leading-[1.05] text-center tracking-widest">
+              <h1 className="font-display font-bold text-[1.8125em] md:text-4xl uppercase text-ink leading-[1.35] tracking-[0.3em] text-center">
                 Orthodontics,
                 <br />
                 Reimagined.
