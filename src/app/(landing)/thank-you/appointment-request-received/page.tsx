@@ -2,10 +2,16 @@ import { Lock } from "lucide-react";
 import HeroReveal from "@/components/hero-reveal";
 import Logo from "@/components/logo";
 
-export const metadata = {
-  title: "You're on the list · Smilery",
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "You're on the List — Waitlist Confirmed",
   description:
-    "Thanks for joining the Smilery waitlist. We'll let you know as soon as we open.",
+    "Thanks for joining the Smilery waitlist! You'll receive exclusive updates about our Summer 2026 opening in Miami Shores, FL. Orthodontics, reimagined.",
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function AppointmentRequestReceivedPage() {

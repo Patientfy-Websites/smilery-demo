@@ -1,10 +1,37 @@
 import Link from "next/link";
 import HeroReveal from "@/components/hero-reveal";
 import Logo from "@/components/logo";
+import { Metadata } from "next";
 
-export const metadata = {
-  title: "Smilery · Opening Summer 2026",
-  description: "Orthodontics, reimagined · Miami Shores, FL",
+export const metadata: Metadata = {
+  title: "Orthodontics, Reimagined — Opening Summer 2026 in Miami Shores",
+  description:
+    "Smilery is a modern orthodontics practice opening Summer 2026 in Miami Shores, FL. Braces, Invisalign, clear aligners — join the waitlist for a reimagined orthodontic experience.",
+  alternates: {
+    canonical: "https://smilery.com",
+  },
+  openGraph: {
+    title: "Smilery — Orthodontics, Reimagined | Opening Summer 2026",
+    description:
+      "A modern orthodontics practice opening Summer 2026 in Miami Shores, FL. Braces, Invisalign, and clear aligners. Join the waitlist for opening updates and exclusive offers.",
+    url: "https://smilery.com",
+    type: "website",
+  },
+  twitter: {
+    title: "Smilery — Orthodontics, Reimagined | Opening Summer 2026",
+    description:
+      "Modern orthodontics opening Summer 2026 in Miami Shores, FL. Braces, Invisalign & clear aligners. Join the waitlist.",
+  },
+  keywords: [
+    "Smilery",
+    "orthodontist Miami Shores",
+    "orthodontics reimagined",
+    "new orthodontist Miami Shores 2026",
+    "braces Miami Shores",
+    "Invisalign Miami Shores",
+    "orthodontist opening Miami",
+    "waitlist orthodontist Miami",
+  ],
 };
 
 export default function ComingSoonPage() {

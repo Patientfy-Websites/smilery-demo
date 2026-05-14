@@ -3,32 +3,58 @@ import Script from "next/script";
 import HeroReveal from "@/components/hero-reveal";
 import Logo from "@/components/logo";
 
-export const metadata = {
-  title: "Request Your Appointment · Smilery",
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Join the Waitlist — Request Your Appointment",
   description:
-    "Request an appointment with Smilery — orthodontics, reimagined.",
+    "Join the Smilery waitlist and be the first to know when we open. Request your orthodontic appointment at our modern practice in Miami Shores, FL. Braces, Invisalign, and clear aligners available Summer 2026.",
+  alternates: {
+    canonical: "https://smilery.com/book-appointment",
+  },
+  openGraph: {
+    title: "Join the Waitlist — Smilery Orthodontics",
+    description:
+      "Be first to know when Smilery opens in Miami Shores, FL. Join the waitlist for exclusive opening updates and priority scheduling.",
+    url: "https://smilery.com/book-appointment",
+    type: "website",
+  },
+  twitter: {
+    title: "Join the Smilery Waitlist | Miami Shores Orthodontics",
+    description:
+      "Be first to know when Smilery opens. Modern orthodontics in Miami Shores, FL — Summer 2026.",
+  },
+  keywords: [
+    "Smilery waitlist",
+    "book orthodontist Miami Shores",
+    "orthodontic appointment Miami",
+    "Smilery appointment",
+    "new orthodontist Miami Shores",
+  ],
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function WaitlistPage() {
   return (
     <section className="bg-cream flex-1 flex">
       <div className="px-6 w-full">
-        <div className="mx-auto max-w-176 min-h-screen flex flex-col items-center text-center gap-10 py-16">
+        <div className="mx-auto max-w-176 min-h-screen flex flex-col items-center text-center py-10">
           {/* Logo */}
           <HeroReveal>
             <Link href="/coming-soon" aria-label="Smilery — back to home">
-              <Logo className="h-12 sm:h-14 w-auto text-ink" />
+              <Logo className="h-10 sm:h-12 w-auto text-ink mb-16" />
             </Link>
           </HeroReveal>
 
           {/* Heading */}
-          <div className="flex w-full flex-col items-center gap-6 pt-4">
+          <div className="flex w-full flex-col items-center gap-3 mb-4">
             <HeroReveal delay={0.1}>
-            <h1 className="font-display font-bold text-[1.8125em] md:text-4xl uppercase text-ink leading-[1.35] tracking-[0.2em] text-center  whitespace-nowrap">
+              <h1 className="font-display font-bold text-[1.8125em] md:text-4xl uppercase text-ink leading-[1.35] tracking-[0.2em] text-center whitespace-nowrap">
                 Be First To Know
               </h1>
-
-              
             </HeroReveal>
 
             <HeroReveal delay={0.15}>
@@ -36,15 +62,15 @@ export default function WaitlistPage() {
             </HeroReveal>
 
             <HeroReveal delay={0.2}>
-              <div className="flex flex-col gap-1 font-sans text-sm leading-relaxed text-ink-muted max-w-[22em]">
-                <p className="font-sans text-sm leading-relaxed text-ink-muted whitespace-nowrap tracking-wide font-medium" >A new space for orthodontics.</p>
+              <div className="flex flex-col gap-0.5 font-sans text-sm leading-relaxed text-ink-muted max-w-[22em] pt-1">
+                <p className="font-sans text-sm leading-relaxed text-ink-muted whitespace-nowrap tracking-wide font-medium">A new space for orthodontics.</p>
                 <p className="font-sans text-sm leading-relaxed text-ink-muted whitespace-nowrap tracking-wide font-medium">Join the waitlist for opening updates.</p>
               </div>
             </HeroReveal>
           </div>
 
           {/* Embedded form */}
-          <HeroReveal delay={0.35} className="w-full max-w-106 md:max-w-none mx-auto pt-4">
+          <HeroReveal delay={0.35} className="w-full max-w-106 md:max-w-none mx-auto">
             <iframe
               src="https://api.leadconnectorhq.com/widget/form/wtDcnjWeVJaOvHTUpbPE"
               style={{ width: "100%", height: "100%", border: "none", borderRadius: "0px" }}
