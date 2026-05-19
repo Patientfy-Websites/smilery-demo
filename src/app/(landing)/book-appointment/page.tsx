@@ -97,6 +97,31 @@ export default function WaitlistPage() {
         src="https://link.msgsndr.com/js/form_embed.js"
         strategy="afterInteractive"
       />
+      <Script
+        id="remove-email-padding"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            function removeEmailPadding() {
+              try {
+                var iframe = document.getElementById('inline-wtDcnjWeVJaOvHTUpbPE');
+                var doc = iframe && (iframe.contentDocument || iframe.contentWindow.document);
+                if (doc) {
+                  var emailInput = doc.getElementById('email');
+                  if (emailInput) {
+                    emailInput.style.setProperty('padding-left', '0px', 'important');
+                  }
+                  doc.querySelectorAll('.email-input svg, .input-icon').forEach(function(el) {
+                    el.style.setProperty('display', 'none', 'important');
+                  });
+                }
+              } catch(e) {}
+            }
+            setTimeout(removeEmailPadding, 1000);
+            setTimeout(removeEmailPadding, 2500);
+          `,
+        }}
+      />
     </section>
   );
 }
