@@ -44,7 +44,7 @@ export default function WaitlistPage() {
         <div className="mx-auto max-w-176 min-h-screen flex flex-col items-center text-center py-10">
           {/* Logo */}
           <HeroReveal>
-            <Link href="/coming-soon" aria-label="Smilery — back to home">
+            <Link href="/" aria-label="Smilery — back to home">
               <Logo className="h-10 sm:h-12 w-auto text-ink mb-16" />
             </Link>
           </HeroReveal>

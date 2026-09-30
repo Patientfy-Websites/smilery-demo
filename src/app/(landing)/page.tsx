@@ -1,34 +1,7 @@
-import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 import HeroReveal from "@/components/hero-reveal";
-import ImageReveal from "@/components/image-reveal";
-import Reveal from "@/components/reveal";
+import Logo from "@/components/logo";
 import { Metadata } from "next";
-
-const VALUE_PROPS = [
-  {
-    number: "01",
-    title: ["Care that's custom", "for you."],
-    description:
-      "Every smile is unique. Your treatment plan should be too. We combine expertise with advanced technology to create a plan that fits you—your goals, your lifestyle, your timeline.",
-    cta: { label: "Our Services", href: "#" },
-  },
-  {
-    number: "02",
-    title: ["Designing confidence,", "through every detail."],
-    description:
-      "From your first visit to your final smile, we're here to make the experience seamless, comfortable, and straightforward.",
-    cta: { label: "How it works", href: "#" },
-  },
-  {
-    number: "03",
-    title: ["Built for real life.", "Made to last."],
-    description:
-      "Modern solutions that are subtle, durable, and designed to move with you.",
-    cta: { label: "Why Smilery", href: "#" },
-  },
-];
 
 export const metadata: Metadata = {
   title: "Smilery Orthodontics | Miami Shores, FL Orthodontist",
@@ -53,128 +26,54 @@ export const metadata: Metadata = {
     "Smilery",
     "orthodontist Miami Shores",
     "orthodontics reimagined",
+    "new orthodontist Miami Shores 2026",
     "braces Miami Shores",
     "Invisalign Miami Shores",
-    "modern orthodontist Miami",
+    "orthodontist opening Miami",
+    "waitlist orthodontist Miami",
   ],
 };
 
-export default function HomePage() {
+export default function ComingSoonPage() {
   return (
-    <>
     <section className="bg-cream flex-1 flex">
-      <div className="px-8 md:px-6 w-full">
-        <div className="max-w-[96em] mx-auto w-full">
-          <div className="pt-16 pb-6 md:py-10 grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
-            <div className="flex flex-col gap-10 md:gap-12">
-              <HeroReveal>
-                <h1 className="font-display font-bold text-[2.25em] md:text-4xl uppercase text-ink leading-[1.15] tracking-[0.2em]">
-                  Orthodontics,
-                  <br />
-                  Reimagined<span className="text-accent">.</span>
-                </h1>
-              </HeroReveal>
+      <div className="px-6 w-full">
+        <div className="mx-auto max-w-136 min-h-screen flex flex-col items-center justify-center text-center gap-32 py-16">
+          <HeroReveal>
+            <Logo className="h-12 sm:h-14 w-auto text-ink" />
+          </HeroReveal>
 
-              <HeroReveal delay={0.1}>
-                <div className="w-12 h-0.5 bg-accent" />
-              </HeroReveal>
+          <div className="flex flex-col items-center gap-12">
+            <HeroReveal delay={0.1}>
+              <h1 className="font-display font-bold text-[1.8125em] md:text-4xl uppercase text-ink leading-[1.35] tracking-[0.3em] text-center">
+                Orthodontics,
+                <br />
+                Reimagined.
+              </h1>
+            </HeroReveal>
 
-              <HeroReveal delay={0.2}>
-                <p className="font-sans text-sm md:text-base text-ink-soft leading-relaxed max-w-[28em]">
-                  Thoughtful care. Advanced technology.
-                  <br className="hidden sm:block" />
-                  A better experience from start to finish.
-                </p>
-              </HeroReveal>
+            <HeroReveal delay={0.2}>
+              <div className="w-12 h-0.5 bg-accent" />
+            </HeroReveal>
 
-              <HeroReveal delay={0.3}>
-                <Link
-                  href="/book-appointment"
-                  className="group inline-flex items-center gap-4 self-start font-sans text-xs tracking-[0.3em] uppercase font-medium text-ink hover:text-accent transition-colors duration-200"
-                >
-                  <span className="border-b border-ink group-hover:border-accent pb-1 transition-colors duration-200">
-                    Book your consultation
-                  </span>
-                  <ArrowRight
-                    className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1"
-                    strokeWidth={1.5}
-                  />
-                </Link>
-              </HeroReveal>
-            </div>
+            <HeroReveal delay={0.3}>
+              <div className="flex flex-col gap-1 font-sans text-xs tracking-widest uppercase font-medium text-ink">
+                <p className="tracking-[0.3em]">Opening Winter</p>
+                <p className="tracking-[0.3em]">Miami Shores, FL</p>
+              </div>
+            </HeroReveal>
+          </div>
 
-            <ImageReveal
-              onMount
-              delay={0.2}
-              className="relative aspect-square w-full overflow-hidden rounded-[1.5em]"
+          <HeroReveal delay={0.4}>
+            <Link
+              href="/book-appointment"
+              className="font-sans text-xs tracking-[0.3em] uppercase font-medium text-ink border-b border-ink pb-1 hover:text-accent hover:border-accent transition-colors duration-200"
             >
-              <Image
-                src="/images/office/reception-front.avif"
-                alt="Smilery's modern reception area with warm lighting and curved architecture"
-                fill
-                priority
-                sizes="(min-width: 768px) 50vw, 100vw"
-                className="object-cover"
-              />
-            </ImageReveal>
-          </div>
+              Join the Waitlist
+            </Link>
+          </HeroReveal>
         </div>
       </div>
     </section>
-
-    <section className="bg-cream">
-      <div className="px-8 md:px-6">
-        <div className="max-w-[96em] mx-auto">
-          <div className="py-10 md:py-16 grid grid-cols-1 md:grid-cols-3">
-            {VALUE_PROPS.map((item, i) => (
-              <Reveal
-                key={item.number}
-                delay={i * 0.1}
-                className={`flex flex-col gap-8 py-12 md:py-0 md:px-10 ${
-                  i > 0
-                    ? "border-t border-ink/15 md:border-t-0 md:border-l"
-                    : ""
-                } ${i === 0 ? "md:pl-0" : ""} ${
-                  i === VALUE_PROPS.length - 1 ? "md:pr-0" : ""
-                }`}
-              >
-                <div className="flex flex-col gap-2">
-                  <span className="font-sans text-xs tracking-[0.3em] uppercase font-medium text-accent">
-                    {item.number}
-                  </span>
-                  <div className="w-8 h-px bg-accent" />
-                </div>
-
-                <h2 className="font-display font-bold text-[1.125em] md:text-[1.25em] uppercase text-ink leading-[1.4] tracking-[0.2em]">
-                  {item.title.map((line, idx) => (
-                    <span key={idx} className="block">
-                      {line}
-                    </span>
-                  ))}
-                </h2>
-
-                <p className="font-sans text-sm text-ink-soft leading-relaxed">
-                  {item.description}
-                </p>
-
-                <Link
-                  href={item.cta.href}
-                  className="group inline-flex items-center gap-4 self-start font-sans text-xs tracking-[0.3em] uppercase font-medium text-ink hover:text-accent transition-colors duration-200"
-                >
-                  <span className="border-b border-ink group-hover:border-accent pb-1 transition-colors duration-200">
-                    {item.cta.label}
-                  </span>
-                  <ArrowRight
-                    className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1"
-                    strokeWidth={1.5}
-                  />
-                </Link>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </div>
-    </section>
-    </>
   );
 }
