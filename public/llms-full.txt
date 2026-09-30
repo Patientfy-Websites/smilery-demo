@@ -1,6 +1,6 @@
 # Smilery — Orthodontics, Reimagined (Full Reference)
 
-> Modern orthodontics practice opening Winter in Miami Shores, FL
+> Modern orthodontics practice opening Winter 2026 in Miami Shores, FL
 
 This is the extended version of llms.txt for AI systems that need deeper context about Smilery.
 
@@ -19,7 +19,7 @@ do not infer them.
 **Name:** Smilery
 **Tagline:** Orthodontics, Reimagined
 **Location:** Miami Shores, FL
-**Opening:** Winter
+**Opening:** Winter 2026
 **Industry:** Healthcare / Orthodontics
 
 ### Brand Aesthetic

@@ -7,7 +7,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "You're on the List — Waitlist Confirmed",
   description:
-    "Thanks for joining the Smilery waitlist! You'll receive exclusive updates about our Winter opening in Miami Shores, FL. Orthodontics, reimagined.",
+    "Thanks for joining the Smilery waitlist! You'll receive exclusive updates about our Winter 2026 opening in Miami Shores, FL. Orthodontics, reimagined.",
   robots: {
     index: false,
     follow: false,

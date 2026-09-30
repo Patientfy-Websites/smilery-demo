@@ -24,7 +24,7 @@ export function OrganizationJsonLd() {
     },
     image: `${SITE_URL}/opengraph-image.png`,
     description:
-      "Smilery is a modern orthodontics practice opening Winter in Miami Shores, FL. Braces and clear aligners — orthodontics, reimagined.",
+      "Smilery is a modern orthodontics practice opening Winter 2026 in Miami Shores, FL. Braces and clear aligners — orthodontics, reimagined.",
     slogan: "Orthodontics, Reimagined",
     areaServed: {
       "@type": "City",
@@ -51,7 +51,7 @@ export function WebSiteJsonLd() {
     alternateName: "Smilery Orthodontics",
     url: SITE_URL,
     description:
-      "Smilery is a modern orthodontics practice opening Winter in Miami Shores, FL. Braces, Invisalign, and clear aligners — orthodontics, reimagined.",
+      "Smilery is a modern orthodontics practice opening Winter 2026 in Miami Shores, FL. Braces, Invisalign, and clear aligners — orthodontics, reimagined.",
     inLanguage: "en-US",
     publisher: { "@id": `${SITE_URL}/#organization` },
   };
@@ -75,7 +75,7 @@ export function FAQPageJsonLd() {
         name: "When is Smilery opening?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Smilery is opening Winter in Miami Shores, FL. Join the waitlist to be the first to know when we open.",
+          text: "Smilery is opening Winter 2026 in Miami Shores, FL. Join the waitlist to be the first to know when we open.",
         },
       },
       {

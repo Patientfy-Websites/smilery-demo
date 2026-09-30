@@ -23,7 +23,7 @@ const SITE_URL = "https://smilery.com";
 const SITE_NAME = "Smilery";
 const SITE_TITLE = "Smilery — Orthodontics, Reimagined | Miami Shores, FL";
 const SITE_DESCRIPTION =
-  "Smilery is a modern orthodontics practice opening Winter in Miami Shores, FL. Offering braces, Invisalign, and clear aligners with a reimagined patient experience. Join the waitlist today.";
+  "Smilery is a modern orthodontics practice opening Winter 2026 in Miami Shores, FL. Offering braces, Invisalign, and clear aligners with a reimagined patient experience. Join the waitlist today.";
 
 export const viewport: Viewport = {
   width: "device-width",

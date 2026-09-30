@@ -8,7 +8,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Join the Waitlist — Request Your Appointment",
   description:
-    "Join the Smilery waitlist and be the first to know when we open. Request your orthodontic appointment at our modern practice in Miami Shores, FL. Braces, Invisalign, and clear aligners available Winter.",
+    "Join the Smilery waitlist and be the first to know when we open. Request your orthodontic appointment at our modern practice in Miami Shores, FL. Braces, Invisalign, and clear aligners available Winter 2026.",
   alternates: {
     canonical: "https://smilery.com/book-appointment",
   },
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     title: "Join the Smilery Waitlist | Miami Shores Orthodontics",
     description:
-      "Be first to know when Smilery opens. Modern orthodontics in Miami Shores, FL — Winter.",
+      "Be first to know when Smilery opens. Modern orthodontics in Miami Shores, FL — Winter 2026.",
   },
   keywords: [
     "Smilery waitlist",
