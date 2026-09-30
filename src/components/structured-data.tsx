@@ -8,7 +8,7 @@ export function LocalBusinessJsonLd() {
     name: "Smilery",
     alternateName: "Smilery Orthodontics",
     description:
-      "Smilery is a modern orthodontics practice opening Summer 2026 in Miami Shores, FL. We offer braces, Invisalign, clear aligners, and comprehensive orthodontic care in a reimagined patient experience.",
+      "Smilery is a modern orthodontics practice opening Winter in Miami Shores, FL. We offer braces, Invisalign, clear aligners, and comprehensive orthodontic care in a reimagined patient experience.",
     url: SITE_URL,
     telephone: "+1-305-555-0100",
     email: "hello@smilery.com",
@@ -415,7 +415,7 @@ export function WebSiteJsonLd() {
     alternateName: "Smilery Orthodontics",
     url: SITE_URL,
     description:
-      "Smilery is a modern orthodontics practice opening Summer 2026 in Miami Shores, FL. Braces, Invisalign, and clear aligners — orthodontics, reimagined.",
+      "Smilery is a modern orthodontics practice opening Winter in Miami Shores, FL. Braces, Invisalign, and clear aligners — orthodontics, reimagined.",
     inLanguage: "en-US",
     publisher: {
       "@type": "Organization",
@@ -515,7 +515,7 @@ export function FAQPageJsonLd() {
         name: "When is Smilery opening?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Smilery is opening Summer 2026 in Miami Shores, FL. Join our waitlist to be the first to know when we open and receive exclusive opening offers.",
+          text: "Smilery is opening Winter in Miami Shores, FL. Join our waitlist to be the first to know when we open and receive exclusive opening offers.",
         },
       },
       {
@@ -579,7 +579,7 @@ export function FAQPageJsonLd() {
         name: "Is Smilery accepting new patients?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Yes! Smilery is currently accepting waitlist signups ahead of our Summer 2026 opening. Join the waitlist to secure your spot and receive priority scheduling when we open.",
+          text: "Yes! Smilery is currently accepting waitlist signups ahead of our Winter opening. Join the waitlist to secure your spot and receive priority scheduling when we open.",
         },
       },
       {
