@@ -1,16 +1,5 @@
 # Smilery
-> Smilery is an orthodontic practice offering braces, Invisalign, and clear aligner treatments for patients seeking straighter smiles.
+> Smilery is a modern orthodontics practice opening Winter in Miami Shores, FL, offering braces and clear aligners. The practice is not open yet; the site is a waitlist for opening updates.
 ## Main
-- [Home](https://smilery.com): Overview of Smilery's orthodontic services, practice philosophy, and getting started with treatment.
-- [Book Appointment](https://smilery.com/book-appointment): Schedule a consultation or appointment with the Smilery team.
-- [About Us](https://smilery.com/about-us): Information about the Smilery practice, team, and approach to orthodontic care.
-- [Contact](https://smilery.com/contact): Office location, phone, email, and hours for reaching Smilery.
-## Services
-- [Services Overview](https://smilery.com/services): Full list of orthodontic treatments offered at Smilery.
-- [Braces](https://smilery.com/services/braces): Traditional braces treatment for correcting alignment and bite issues.
-- [Invisalign](https://smilery.com/services/invisalign): Invisalign clear aligner therapy as an alternative to traditional braces.
-- [Clear Aligners](https://smilery.com/services/clear-aligners): Clear aligner treatment options for discreet teeth straightening.
-## Patient Resources
-- [Blog](https://smilery.com/blog): Articles on orthodontic care, treatment options, and oral health tips.
-- [Insurance](https://smilery.com/insurance): Information on accepted insurance plans and coverage.
-- [Financing](https://smilery.com/financing): Payment plans and financing options for orthodontic treatment.
+- [Home](https://smilery.com): Coming-soon page — Orthodontics, Reimagined. Opening Winter in Miami Shores, FL.
+- [Join the Waitlist](https://smilery.com/book-appointment): Sign up to receive opening updates from Smilery.

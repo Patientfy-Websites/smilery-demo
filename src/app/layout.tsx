@@ -2,12 +2,9 @@ import type { Metadata, Viewport } from "next";
 import { Inter, Fraunces } from "next/font/google";
 import SmoothScroll from "@/components/smooth-scroll";
 import {
-  LocalBusinessJsonLd,
   WebSiteJsonLd,
   OrganizationJsonLd,
-  BreadcrumbJsonLd,
   FAQPageJsonLd,
-  MedicalBusinessJsonLd,
 } from "@/components/structured-data";
 import "./globals.css";
 
@@ -68,10 +65,7 @@ export const metadata: Metadata = {
     "Smilery Miami Shores",
     "new orthodontist Miami Shores 2026",
   ],
-  authors: [
-    { name: "Smilery", url: SITE_URL },
-    { name: "Dr. Lorem Ipsum, DMD, MS", url: `${SITE_URL}/about-us#team` },
-  ],
+  authors: [{ name: "Smilery", url: SITE_URL }],
   creator: SITE_NAME,
   publisher: SITE_NAME,
   generator: "Next.js",
@@ -101,13 +95,9 @@ export const metadata: Metadata = {
       },
     ],
     countryName: "United States",
-    emails: ["hello@smilery.com"],
-    phoneNumbers: ["+1-305-555-0100"],
   },
   twitter: {
     card: "summary_large_image",
-    site: "@smileryortho",
-    creator: "@smileryortho",
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
     images: {
@@ -130,18 +120,12 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: SITE_URL,
-    languages: {
-      "en-US": SITE_URL,
-      "es-US": `${SITE_URL}/es`,
-    },
   },
   category: "health",
   classification: "Orthodontics, Dental Care, Healthcare",
   other: {
     "geo.region": "US-FL",
     "geo.placename": "Miami Shores",
-    "geo.position": "25.8662;-80.1826",
-    ICBM: "25.8662, -80.1826",
     "revisit-after": "7 days",
     rating: "general",
     "DC.title": SITE_TITLE,
@@ -156,16 +140,13 @@ export const metadata: Metadata = {
     "apple-mobile-web-app-status-bar-style": "default",
     "mobile-web-app-capable": "yes",
     "msapplication-TileColor": "#F4EFEA",
-    "msapplication-config": "/browserconfig.xml",
     "format-detection": "telephone=yes",
-    "business:contact_data:street_address": "123 NE 2nd Ave",
+    // Street address, phone and email stay out until the clinic confirms
+    // them — see structured-data.tsx.
     "business:contact_data:locality": "Miami Shores",
     "business:contact_data:region": "FL",
-    "business:contact_data:postal_code": "33138",
     "business:contact_data:country_name": "United States",
-    "business:contact_data:phone_number": "+1-305-555-0100",
     "business:contact_data:website": SITE_URL,
-    "business:contact_data:email": "hello@smilery.com",
   },
   icons: {
     icon: [
@@ -176,21 +157,11 @@ export const metadata: Metadata = {
     ],
   },
   manifest: "/manifest.json",
-  verification: {
-    google: "lorem-google-site-verification-code",
-    yandex: "lorem-yandex-verification-code",
-    other: {
-      "msvalidate.01": "lorem-bing-verification-code",
-      "p:domain_verify": "lorem-pinterest-verification-code",
-      "facebook-domain-verification": "lorem-facebook-verification-code",
-    },
-  },
   appleWebApp: {
     capable: true,
     title: SITE_NAME,
     statusBarStyle: "default",
   },
-  archives: [`${SITE_URL}/blog`],
   bookmarks: [`${SITE_URL}/book-appointment`],
 };
 
@@ -202,12 +173,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${fraunces.variable} antialiased`}>
       <body className="min-h-screen flex flex-col">
-        <LocalBusinessJsonLd />
-        <WebSiteJsonLd />
         <OrganizationJsonLd />
-        <BreadcrumbJsonLd />
+        <WebSiteJsonLd />
         <FAQPageJsonLd />
-        <MedicalBusinessJsonLd />
         <SmoothScroll />
         {children}
       </body>
